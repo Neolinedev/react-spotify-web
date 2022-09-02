@@ -20,7 +20,7 @@ export const Favorites = () => {
       <h1 style={{ textAlign: "center" }}>My Favorite Artist</h1>
       <Grid direction="col" container spacing={3}>
         {data.map((artist) => (
-          <Grid item xs={12} sm={12} md={4}>
+          <Grid item xs={12} sm={6} lg={4}>
             <Card sx={{ height: "100%" }} key={artist.id}>
               <CardMedia component="img" height="200" image={artist.images[0].url} alt={artist.name} />
               <CardContent>
@@ -29,7 +29,7 @@ export const Favorites = () => {
                 </Typography>
                 <Typography component="span" variant="body2" color="text.secondary" sx={{ display: "block" }}>
                   {artist.genres.map((genre, i) => (
-                    <Chip color="success" label={genre} key={i} />
+                    <Chip color="success" label={genre} key={i} sx={{ m: 0.5, textTransform: "uppercase" }} />
                   ))}
                 </Typography>
               </CardContent>
