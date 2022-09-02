@@ -26,10 +26,7 @@ export const ArtistDetails = () => {
         <Grid item xs={12} sm={12} md={4} sx={{ display: "flex", justifyContent: "center" }}>
           <Stack align="center" justify="center">
             <Avatar alt={artist.name} src={artist.images[0].url} sx={{ height: 240, width: 240, border: 2 }} />
-            <Typography variant="h5" component="div" sx={{ marginTop: 3 }}>
-              {artist.name}
-            </Typography>
-            <Link variant="button" sx={{ ml: 1 }} underline="none" href="/favorites">
+            <Link variant="button" sx={{ ml: 1, mt: 5, backgroundColor: "#359130", px: 1, py: 0.5, borderRadius: 50, color: "white" }} underline="none" href="/favorites">
               Back to Favorites
             </Link>
           </Stack>
