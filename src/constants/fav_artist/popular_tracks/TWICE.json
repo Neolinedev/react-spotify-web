@@ -1,0 +1,542 @@
+[
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/5052Ip89wdW8EGdpjEpNeq" },
+      "href": "https://api.spotify.com/v1/albums/5052Ip89wdW8EGdpjEpNeq",
+      "id": "5052Ip89wdW8EGdpjEpNeq",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273c11578f0d39a2d639a92046d", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02c11578f0d39a2d639a92046d", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851c11578f0d39a2d639a92046d", "width": 64 }
+      ],
+      "name": "Formula of Love: O+T=<3",
+      "release_date": "2021-11-12",
+      "release_date_precision": "day",
+      "total_tracks": 16,
+      "type": "album",
+      "uri": "spotify:album:5052Ip89wdW8EGdpjEpNeq"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 198053,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA2100080" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/308Ir17KlNdlrbVLHWhlLe" },
+    "href": "https://api.spotify.com/v1/tracks/308Ir17KlNdlrbVLHWhlLe",
+    "id": "308Ir17KlNdlrbVLHWhlLe",
+    "is_local": false,
+    "is_playable": true,
+    "name": "The Feels",
+    "popularity": 79,
+    "preview_url": "https://p.scdn.co/mp3-preview/6c85210d5bf3c056b49e2a6ce06abcc2a99d23fe?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 15,
+    "type": "track",
+    "uri": "spotify:track:308Ir17KlNdlrbVLHWhlLe"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/33jypnU7WULxPaVrjj4RXH" },
+      "href": "https://api.spotify.com/v1/albums/33jypnU7WULxPaVrjj4RXH",
+      "id": "33jypnU7WULxPaVrjj4RXH",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273dfb3ec8a83a71cd5bbc595e6", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02dfb3ec8a83a71cd5bbc595e6", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851dfb3ec8a83a71cd5bbc595e6", "width": 64 }
+      ],
+      "name": "Eyes Wide Open",
+      "release_date": "2020-10-26",
+      "release_date_precision": "day",
+      "total_tracks": 13,
+      "type": "album",
+      "uri": "spotify:album:33jypnU7WULxPaVrjj4RXH"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 205493,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA2000134" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/37ZtpRBkHcaq6hHy0X98zn" },
+    "href": "https://api.spotify.com/v1/tracks/37ZtpRBkHcaq6hHy0X98zn",
+    "id": "37ZtpRBkHcaq6hHy0X98zn",
+    "is_local": false,
+    "is_playable": true,
+    "name": "I CAN'T STOP ME",
+    "popularity": 74,
+    "preview_url": "https://p.scdn.co/mp3-preview/d42dc55267423e80fbf8bffc1aaea7f04210486e?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:37ZtpRBkHcaq6hHy0X98zn"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/3aLpWFejbsdyafODLXRqwF" },
+      "href": "https://api.spotify.com/v1/albums/3aLpWFejbsdyafODLXRqwF",
+      "id": "3aLpWFejbsdyafODLXRqwF",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273d0a0974a3a74ad0771a1f87d", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02d0a0974a3a74ad0771a1f87d", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851d0a0974a3a74ad0771a1f87d", "width": 64 }
+      ],
+      "name": "FANCY YOU",
+      "release_date": "2019-04-22",
+      "release_date_precision": "day",
+      "total_tracks": 6,
+      "type": "album",
+      "uri": "spotify:album:3aLpWFejbsdyafODLXRqwF"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 213880,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA1900042" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/2qQpFbqqkLOGySgNK8wBXt" },
+    "href": "https://api.spotify.com/v1/tracks/2qQpFbqqkLOGySgNK8wBXt",
+    "id": "2qQpFbqqkLOGySgNK8wBXt",
+    "is_local": false,
+    "is_playable": true,
+    "name": "FANCY",
+    "popularity": 74,
+    "preview_url": "https://p.scdn.co/mp3-preview/3c733514a1ae8b4960ce1cca282fe922b9376b1b?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:2qQpFbqqkLOGySgNK8wBXt"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/2GKTroaa4ysyhEdvzpvUoM" },
+      "href": "https://api.spotify.com/v1/albums/2GKTroaa4ysyhEdvzpvUoM",
+      "id": "2GKTroaa4ysyhEdvzpvUoM",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273d610ab817a71b377cbe54742", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02d610ab817a71b377cbe54742", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851d610ab817a71b377cbe54742", "width": 64 }
+      ],
+      "name": "Summer Nights",
+      "release_date": "2018-07-09",
+      "release_date_precision": "day",
+      "total_tracks": 9,
+      "type": "album",
+      "uri": "spotify:album:2GKTroaa4ysyhEdvzpvUoM"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 208240,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA1800038" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y" },
+    "href": "https://api.spotify.com/v1/tracks/3zhbXKFjUDw40pTYyCgt1Y",
+    "id": "3zhbXKFjUDw40pTYyCgt1Y",
+    "is_local": false,
+    "is_playable": true,
+    "name": "What is Love",
+    "popularity": 74,
+    "preview_url": "https://p.scdn.co/mp3-preview/4896f7384033b08c79fc13e9ab236f249cb6de33?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:3zhbXKFjUDw40pTYyCgt1Y"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/5052Ip89wdW8EGdpjEpNeq" },
+      "href": "https://api.spotify.com/v1/albums/5052Ip89wdW8EGdpjEpNeq",
+      "id": "5052Ip89wdW8EGdpjEpNeq",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273c11578f0d39a2d639a92046d", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02c11578f0d39a2d639a92046d", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851c11578f0d39a2d639a92046d", "width": 64 }
+      ],
+      "name": "Formula of Love: O+T=<3",
+      "release_date": "2021-11-12",
+      "release_date_precision": "day",
+      "total_tracks": 16,
+      "type": "album",
+      "uri": "spotify:album:5052Ip89wdW8EGdpjEpNeq"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 194600,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA2100098" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/0BJMgVrnWIvgYsjq8KaPeh" },
+    "href": "https://api.spotify.com/v1/tracks/0BJMgVrnWIvgYsjq8KaPeh",
+    "id": "0BJMgVrnWIvgYsjq8KaPeh",
+    "is_local": false,
+    "is_playable": true,
+    "name": "SCIENTIST",
+    "popularity": 74,
+    "preview_url": "https://p.scdn.co/mp3-preview/b29a392071eacfaac31cf2d6eee23ad9de5394cb?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0BJMgVrnWIvgYsjq8KaPeh"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/00vb6sViDbJLmLLchfbRh4" },
+      "href": "https://api.spotify.com/v1/albums/00vb6sViDbJLmLLchfbRh4",
+      "id": "00vb6sViDbJLmLLchfbRh4",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b2732eeed5cdd28da11577ea8bf5", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e022eeed5cdd28da11577ea8bf5", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d000048512eeed5cdd28da11577ea8bf5", "width": 64 }
+      ],
+      "name": "Taste of Love",
+      "release_date": "2021-06-11",
+      "release_date_precision": "day",
+      "total_tracks": 6,
+      "type": "album",
+      "uri": "spotify:album:00vb6sViDbJLmLLchfbRh4"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 210573,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA2100022" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/0BTaaKT4RMbs5M73tOHX5Y" },
+    "href": "https://api.spotify.com/v1/tracks/0BTaaKT4RMbs5M73tOHX5Y",
+    "id": "0BTaaKT4RMbs5M73tOHX5Y",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Alcohol-Free",
+    "popularity": 72,
+    "preview_url": "https://p.scdn.co/mp3-preview/f31234a1d4878a09f3db2a935cf39d90c68b5365?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0BTaaKT4RMbs5M73tOHX5Y"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/2aRAPmBCEdo9pWimsI5l87" },
+      "href": "https://api.spotify.com/v1/albums/2aRAPmBCEdo9pWimsI5l87",
+      "id": "2aRAPmBCEdo9pWimsI5l87",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273cf3bd61dee85e0b7753decbd", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02cf3bd61dee85e0b7753decbd", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851cf3bd61dee85e0b7753decbd", "width": 64 }
+      ],
+      "name": "CRY FOR ME",
+      "release_date": "2020-12-18",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:2aRAPmBCEdo9pWimsI5l87"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 204167,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA2000173" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/2xtP8RNbo2BEMzLX7tK7aq" },
+    "href": "https://api.spotify.com/v1/tracks/2xtP8RNbo2BEMzLX7tK7aq",
+    "id": "2xtP8RNbo2BEMzLX7tK7aq",
+    "is_local": false,
+    "is_playable": true,
+    "name": "CRY FOR ME",
+    "popularity": 71,
+    "preview_url": "https://p.scdn.co/mp3-preview/8f4d947f17570e760908073ec1280cd5296f64b0?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:2xtP8RNbo2BEMzLX7tK7aq"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/3NQBPabmRm3LzVcmtkTLfo" },
+      "href": "https://api.spotify.com/v1/albums/3NQBPabmRm3LzVcmtkTLfo",
+      "id": "3NQBPabmRm3LzVcmtkTLfo",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273936fec46d7625f30936959dc", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02936fec46d7625f30936959dc", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851936fec46d7625f30936959dc", "width": 64 }
+      ],
+      "name": "Feel Special",
+      "release_date": "2019-09-23",
+      "release_date_precision": "day",
+      "total_tracks": 7,
+      "type": "album",
+      "uri": "spotify:album:3NQBPabmRm3LzVcmtkTLfo"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 206866,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA1900074" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/3Hz3tTQwOdM6XkA0ALB2G9" },
+    "href": "https://api.spotify.com/v1/tracks/3Hz3tTQwOdM6XkA0ALB2G9",
+    "id": "3Hz3tTQwOdM6XkA0ALB2G9",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Feel Special",
+    "popularity": 71,
+    "preview_url": "https://p.scdn.co/mp3-preview/551a68c6cc034e13c2e86384990534288fdce500?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:3Hz3tTQwOdM6XkA0ALB2G9"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/25VunQEW0x2W6ALND2Mh4g" },
+      "href": "https://api.spotify.com/v1/albums/25VunQEW0x2W6ALND2Mh4g",
+      "id": "25VunQEW0x2W6ALND2Mh4g",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b2738c66dd4692d695f414725131", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e028c66dd4692d695f414725131", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d000048518c66dd4692d695f414725131", "width": 64 }
+      ],
+      "name": "YES or YES",
+      "release_date": "2018-11-05",
+      "release_date_precision": "day",
+      "total_tracks": 7,
+      "type": "album",
+      "uri": "spotify:album:25VunQEW0x2W6ALND2Mh4g"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 237680,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA1800109" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/26OVhEqFDQH0Ij77QtmGP9" },
+    "href": "https://api.spotify.com/v1/tracks/26OVhEqFDQH0Ij77QtmGP9",
+    "id": "26OVhEqFDQH0Ij77QtmGP9",
+    "is_local": false,
+    "is_playable": true,
+    "name": "YES or YES",
+    "popularity": 69,
+    "preview_url": "https://p.scdn.co/mp3-preview/882de4f6fdba2d2a81b3f6dbb5c2f58c5d7a7c31?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:26OVhEqFDQH0Ij77QtmGP9"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+          "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+          "id": "7n2Ycct7Beij7Dj7meI4X0",
+          "name": "TWICE",
+          "type": "artist",
+          "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/2GKTroaa4ysyhEdvzpvUoM" },
+      "href": "https://api.spotify.com/v1/albums/2GKTroaa4ysyhEdvzpvUoM",
+      "id": "2GKTroaa4ysyhEdvzpvUoM",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273d610ab817a71b377cbe54742", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02d610ab817a71b377cbe54742", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851d610ab817a71b377cbe54742", "width": 64 }
+      ],
+      "name": "Summer Nights",
+      "release_date": "2018-07-09",
+      "release_date_precision": "day",
+      "total_tracks": 9,
+      "type": "album",
+      "uri": "spotify:album:2GKTroaa4ysyhEdvzpvUoM"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+        "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "type": "artist",
+        "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 180800,
+    "explicit": false,
+    "external_ids": { "isrc": "US5TA1800053" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/4DYIDSMIB5y2UmZFv9fxeX" },
+    "href": "https://api.spotify.com/v1/tracks/4DYIDSMIB5y2UmZFv9fxeX",
+    "id": "4DYIDSMIB5y2UmZFv9fxeX",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Dance The Night Away",
+    "popularity": 68,
+    "preview_url": "https://p.scdn.co/mp3-preview/1f067f7baefc02787cb7d25842b1255c0d20a2e9?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:4DYIDSMIB5y2UmZFv9fxeX"
+  }
+]

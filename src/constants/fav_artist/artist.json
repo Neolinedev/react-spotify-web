@@ -1,0 +1,274 @@
+[
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/0qlWcS66ohOIi0M8JZwPft" },
+    "followers": { "href": null, "total": 1370213 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/0qlWcS66ohOIi0M8JZwPft",
+    "id": "0qlWcS66ohOIi0M8JZwPft",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5ebd0701912e6fccf8427bc7361", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174d0701912e6fccf8427bc7361", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178d0701912e6fccf8427bc7361", "width": 160 }
+    ],
+    "name": "GFRIEND",
+    "popularity": 65,
+    "type": "artist",
+    "uri": "spotify:artist:0qlWcS66ohOIi0M8JZwPft"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM" },
+    "followers": { "href": null, "total": 6896876 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/1z4g3DjTBBZKhvAroFlhOM",
+    "id": "1z4g3DjTBBZKhvAroFlhOM",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb8a8415e72dedaa552259d0c1", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051748a8415e72dedaa552259d0c1", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1788a8415e72dedaa552259d0c1", "width": 160 }
+    ],
+    "name": "Red Velvet",
+    "popularity": 77,
+    "type": "artist",
+    "uri": "spotify:artist:1z4g3DjTBBZKhvAroFlhOM"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/2AfmfGFbe0A0WsTYm0SDTx" },
+    "followers": { "href": null, "total": 3477811 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/2AfmfGFbe0A0WsTYm0SDTx",
+    "id": "2AfmfGFbe0A0WsTYm0SDTx",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5ebc54e9b09db7f35f5bbb0efd4", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174c54e9b09db7f35f5bbb0efd4", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178c54e9b09db7f35f5bbb0efd4", "width": 160 }
+    ],
+    "name": "(G)I-DLE",
+    "popularity": 76,
+    "type": "artist",
+    "uri": "spotify:artist:2AfmfGFbe0A0WsTYm0SDTx"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/3HqSLMAZ3g3d5poNaI7GOU" },
+    "followers": { "href": null, "total": 6942368 },
+    "genres": ["k-pop"],
+    "href": "https://api.spotify.com/v1/artists/3HqSLMAZ3g3d5poNaI7GOU",
+    "id": "3HqSLMAZ3g3d5poNaI7GOU",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb006ff3c0136a71bfb9928d34", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174006ff3c0136a71bfb9928d34", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178006ff3c0136a71bfb9928d34", "width": 160 }
+    ],
+    "name": "IU",
+    "popularity": 75,
+    "type": "artist",
+    "uri": "spotify:artist:3HqSLMAZ3g3d5poNaI7GOU"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/3ZZzT0naD25RhY2uZvIKkJ" },
+    "followers": { "href": null, "total": 1466354 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/3ZZzT0naD25RhY2uZvIKkJ",
+    "id": "3ZZzT0naD25RhY2uZvIKkJ",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb63cc88daba8709af04c3d6ed", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab6761610000517463cc88daba8709af04c3d6ed", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f17863cc88daba8709af04c3d6ed", "width": 160 }
+    ],
+    "name": "EVERGLOW",
+    "popularity": 66,
+    "type": "artist",
+    "uri": "spotify:artist:3ZZzT0naD25RhY2uZvIKkJ"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/3qNVuliS40BLgXGxhdBdqu" },
+    "followers": { "href": null, "total": 2439076 },
+    "genres": ["k-pop"],
+    "href": "https://api.spotify.com/v1/artists/3qNVuliS40BLgXGxhdBdqu",
+    "id": "3qNVuliS40BLgXGxhdBdqu",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5ebda0fb055a20233c3ae0c999c", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174da0fb055a20233c3ae0c999c", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178da0fb055a20233c3ae0c999c", "width": 160 }
+    ],
+    "name": "TAEYEON",
+    "popularity": 72,
+    "type": "artist",
+    "uri": "spotify:artist:3qNVuliS40BLgXGxhdBdqu"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/45eNHdiiabvmbp4erw26rg" },
+    "followers": { "href": null, "total": 1246862 },
+    "genres": ["edm", "melodic dubstep", "pop", "pop dance", "tropical house"],
+    "href": "https://api.spotify.com/v1/artists/45eNHdiiabvmbp4erw26rg",
+    "id": "45eNHdiiabvmbp4erw26rg",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb6b5fbf615ada187ce5e425c8", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051746b5fbf615ada187ce5e425c8", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1786b5fbf615ada187ce5e425c8", "width": 160 }
+    ],
+    "name": "ILLENIUM",
+    "popularity": 75,
+    "type": "artist",
+    "uri": "spotify:artist:45eNHdiiabvmbp4erw26rg"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/47mIJdHORyRerp4os813jD" },
+    "followers": { "href": null, "total": 1406528 },
+    "genres": ["speedrun", "video game music"],
+    "href": "https://api.spotify.com/v1/artists/47mIJdHORyRerp4os813jD",
+    "id": "47mIJdHORyRerp4os813jD",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb1c2306662a30b657f6118e23", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051741c2306662a30b657f6118e23", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1781c2306662a30b657f6118e23", "width": 160 }
+    ],
+    "name": "League of Legends",
+    "popularity": 84,
+    "type": "artist",
+    "uri": "spotify:artist:47mIJdHORyRerp4os813jD"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/4TqlcgMFDryY96KWcvrhTv" },
+    "followers": { "href": null, "total": 100367 },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/4TqlcgMFDryY96KWcvrhTv",
+    "id": "4TqlcgMFDryY96KWcvrhTv",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5ebba818688ae72d12215ee92f0", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174ba818688ae72d12215ee92f0", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178ba818688ae72d12215ee92f0", "width": 160 }
+    ],
+    "name": "Seraphine",
+    "popularity": 60,
+    "type": "artist",
+    "uri": "spotify:artist:4TqlcgMFDryY96KWcvrhTv"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/57nPqD7z62gDdq37US9XJR" },
+    "followers": { "href": null, "total": 123221 },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/57nPqD7z62gDdq37US9XJR",
+    "id": "57nPqD7z62gDdq37US9XJR",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb551d58f47a35e30a57e8209f", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174551d58f47a35e30a57e8209f", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178551d58f47a35e30a57e8209f", "width": 160 }
+    ],
+    "name": "Arcane",
+    "popularity": 81,
+    "type": "artist",
+    "uri": "spotify:artist:57nPqD7z62gDdq37US9XJR"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/5V1qsQHdXNm4ZEZHWvFnqQ" },
+    "followers": { "href": null, "total": 991731 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/5V1qsQHdXNm4ZEZHWvFnqQ",
+    "id": "5V1qsQHdXNm4ZEZHWvFnqQ",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5ebbf973f439e9a11dab997893c", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174bf973f439e9a11dab997893c", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178bf973f439e9a11dab997893c", "width": 160 }
+    ],
+    "name": "Dreamcatcher",
+    "popularity": 69,
+    "type": "artist",
+    "uri": "spotify:artist:5V1qsQHdXNm4ZEZHWvFnqQ"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/6BrvowZBreEkXzJQMpL174" },
+    "followers": { "href": null, "total": 3600367 },
+    "genres": ["big room", "dance pop", "dutch house", "edm", "electro house", "pop dance", "progressive electro house", "progressive house", "tropical house"],
+    "href": "https://api.spotify.com/v1/artists/6BrvowZBreEkXzJQMpL174",
+    "id": "6BrvowZBreEkXzJQMpL174",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb1cbb1805834e1767a18a328b", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051741cbb1805834e1767a18a328b", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1781cbb1805834e1767a18a328b", "width": 160 }
+    ],
+    "name": "Hardwell",
+    "popularity": 69,
+    "type": "artist",
+    "uri": "spotify:artist:6BrvowZBreEkXzJQMpL174"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/76YIoWHp3Ri3q1ocOPtFzp" },
+    "followers": { "href": null, "total": 334528 },
+    "genres": ["edm", "pop dance"],
+    "href": "https://api.spotify.com/v1/artists/76YIoWHp3Ri3q1ocOPtFzp",
+    "id": "76YIoWHp3Ri3q1ocOPtFzp",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb837eaae86d9548a8729e568b", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174837eaae86d9548a8729e568b", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178837eaae86d9548a8729e568b", "width": 160 }
+    ],
+    "name": "AREA21",
+    "popularity": 57,
+    "type": "artist",
+    "uri": "spotify:artist:76YIoWHp3Ri3q1ocOPtFzp"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/779v40cWIJUUoIDtC1IGaF" },
+    "followers": { "href": null, "total": 64714 },
+    "genres": ["k-pop"],
+    "href": "https://api.spotify.com/v1/artists/779v40cWIJUUoIDtC1IGaF",
+    "id": "779v40cWIJUUoIDtC1IGaF",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb719a027d3d1ed3810dfb75a2", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174719a027d3d1ed3810dfb75a2", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178719a027d3d1ed3810dfb75a2", "width": 160 }
+    ],
+    "name": "MIYEON",
+    "popularity": 54,
+    "type": "artist",
+    "uri": "spotify:artist:779v40cWIJUUoIDtC1IGaF"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+    "followers": { "href": null, "total": 93470 },
+    "genres": ["k-pop", "korean ost"],
+    "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+    "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb8bb2a59f031ea37f2d99e8a6", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051748bb2a59f031ea37f2d99e8a6", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1788bb2a59f031ea37f2d99e8a6", "width": 160 }
+    ],
+    "name": "YUJU",
+    "popularity": 52,
+    "type": "artist",
+    "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0" },
+    "followers": { "href": null, "total": 13386721 },
+    "genres": ["k-pop", "k-pop girl group"],
+    "href": "https://api.spotify.com/v1/artists/7n2Ycct7Beij7Dj7meI4X0",
+    "id": "7n2Ycct7Beij7Dj7meI4X0",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb464ef353e1a7c72f67de8158", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab67616100005174464ef353e1a7c72f67de8158", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f178464ef353e1a7c72f67de8158", "width": 160 }
+    ],
+    "name": "TWICE",
+    "popularity": 83,
+    "type": "artist",
+    "uri": "spotify:artist:7n2Ycct7Beij7Dj7meI4X0"
+  },
+  {
+    "external_urls": { "spotify": "https://open.spotify.com/artist/7zYj9S9SdIunYCfSm7vzAR" },
+    "followers": { "href": null, "total": 1427648 },
+    "genres": ["k-pop"],
+    "href": "https://api.spotify.com/v1/artists/7zYj9S9SdIunYCfSm7vzAR",
+    "id": "7zYj9S9SdIunYCfSm7vzAR",
+    "images": [
+      { "height": 640, "url": "https://i.scdn.co/image/ab6761610000e5eb2be8611f6c6e9174031c64df", "width": 640 },
+      { "height": 320, "url": "https://i.scdn.co/image/ab676161000051742be8611f6c6e9174031c64df", "width": 320 },
+      { "height": 160, "url": "https://i.scdn.co/image/ab6761610000f1782be8611f6c6e9174031c64df", "width": 160 }
+    ],
+    "name": "JEON SOMI",
+    "popularity": 67,
+    "type": "artist",
+    "uri": "spotify:artist:7zYj9S9SdIunYCfSm7vzAR"
+  }
+]

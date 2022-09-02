@@ -1,0 +1,14 @@
+{
+  "country": "ID",
+  "display_name": "Saddam Pradana",
+  "email": "ms_pradana32@yahoo.com",
+  "explicit_content": { "filter_enabled": false, "filter_locked": false },
+  "external_urls": { "spotify": "https://open.spotify.com/user/21bzbwnkt6qo7x4najyhrafaa" },
+  "followers": { "href": null, "total": 6 },
+  "href": "https://api.spotify.com/v1/users/21bzbwnkt6qo7x4najyhrafaa",
+  "id": "21bzbwnkt6qo7x4najyhrafaa",
+  "images": [{ "height": null, "url": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1001149439987958&height=300&width=300&ext=1653660937&hash=AeS-uzE5VCHEk42BUY0", "width": null }],
+  "product": "open",
+  "type": "user",
+  "uri": "spotify:user:21bzbwnkt6qo7x4najyhrafaa"
+}

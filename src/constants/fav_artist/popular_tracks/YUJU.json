@@ -1,0 +1,574 @@
+[
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/6ofVW04Q32gN1Hxk50S9Fi" },
+      "href": "https://api.spotify.com/v1/albums/6ofVW04Q32gN1Hxk50S9Fi",
+      "id": "6ofVW04Q32gN1Hxk50S9Fi",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273a42bfa2c336bdc2e5c486e49", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02a42bfa2c336bdc2e5c486e49", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851a42bfa2c336bdc2e5c486e49", "width": 64 }
+      ],
+      "name": "[REC.]",
+      "release_date": "2022-01-18",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:6ofVW04Q32gN1Hxk50S9Fi"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 201680,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA252200027" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/4zw0hc13H9fbzj2UpD6Rfu" },
+    "href": "https://api.spotify.com/v1/tracks/4zw0hc13H9fbzj2UpD6Rfu",
+    "id": "4zw0hc13H9fbzj2UpD6Rfu",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Play",
+    "popularity": 58,
+    "preview_url": "https://p.scdn.co/mp3-preview/241448c9bd230c4251c2c11cbf9159d6834a4c31?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 2,
+    "type": "track",
+    "uri": "spotify:track:4zw0hc13H9fbzj2UpD6Rfu"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/0gTnhzJiN72hdOWwT5q6yZ" },
+      "href": "https://api.spotify.com/v1/albums/0gTnhzJiN72hdOWwT5q6yZ",
+      "id": "0gTnhzJiN72hdOWwT5q6yZ",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273424910c1b05e5dca58b5254e", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02424910c1b05e5dca58b5254e", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851424910c1b05e5dca58b5254e", "width": 64 }
+      ],
+      "name": "True Beauty (Original Television Soundtrack), Pt. 2",
+      "release_date": "2020-12-17",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:0gTnhzJiN72hdOWwT5q6yZ"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 210643,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA492001499" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/0VXlqqfrXeG7Hbf8MtFsUD" },
+    "href": "https://api.spotify.com/v1/tracks/0VXlqqfrXeG7Hbf8MtFsUD",
+    "id": "0VXlqqfrXeG7Hbf8MtFsUD",
+    "is_local": false,
+    "is_playable": true,
+    "name": "I′m in the Mood for Dancing",
+    "popularity": 51,
+    "preview_url": "https://p.scdn.co/mp3-preview/b722aeb13c37b783ab68ae77f9092b6a8c5aa083?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0VXlqqfrXeG7Hbf8MtFsUD"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/2e4G04F77jxVuDYo44TCSm" },
+          "href": "https://api.spotify.com/v1/artists/2e4G04F77jxVuDYo44TCSm",
+          "id": "2e4G04F77jxVuDYo44TCSm",
+          "name": "Loco",
+          "type": "artist",
+          "uri": "spotify:artist:2e4G04F77jxVuDYo44TCSm"
+        },
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/2DH3LaLcK63kEHYIH6ZK8A" },
+      "href": "https://api.spotify.com/v1/albums/2DH3LaLcK63kEHYIH6ZK8A",
+      "id": "2DH3LaLcK63kEHYIH6ZK8A",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b2738a8800559351735cfa923ab8", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e028a8800559351735cfa923ab8", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d000048518a8800559351735cfa923ab8", "width": 64 }
+      ],
+      "name": "Girl Who Sees Smell OST Part.2",
+      "release_date": "2015-04-08",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:2DH3LaLcK63kEHYIH6ZK8A"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/2e4G04F77jxVuDYo44TCSm" },
+        "href": "https://api.spotify.com/v1/artists/2e4G04F77jxVuDYo44TCSm",
+        "id": "2e4G04F77jxVuDYo44TCSm",
+        "name": "Loco",
+        "type": "artist",
+        "uri": "spotify:artist:2e4G04F77jxVuDYo44TCSm"
+      },
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 201000,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA381210349" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/5A0ut5JjeNLgGaScBIRyBU" },
+    "href": "https://api.spotify.com/v1/tracks/5A0ut5JjeNLgGaScBIRyBU",
+    "id": "5A0ut5JjeNLgGaScBIRyBU",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Spring Is Gone by chance",
+    "popularity": 50,
+    "preview_url": "https://p.scdn.co/mp3-preview/eecb5255066087d70f37183fe012345f596afd46?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:5A0ut5JjeNLgGaScBIRyBU"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/6ofVW04Q32gN1Hxk50S9Fi" },
+      "href": "https://api.spotify.com/v1/albums/6ofVW04Q32gN1Hxk50S9Fi",
+      "id": "6ofVW04Q32gN1Hxk50S9Fi",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273a42bfa2c336bdc2e5c486e49", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02a42bfa2c336bdc2e5c486e49", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851a42bfa2c336bdc2e5c486e49", "width": 64 }
+      ],
+      "name": "[REC.]",
+      "release_date": "2022-01-18",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:6ofVW04Q32gN1Hxk50S9Fi"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 200893,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA252200029" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/39KFUziXqQ2qqr5k4GA77E" },
+    "href": "https://api.spotify.com/v1/tracks/39KFUziXqQ2qqr5k4GA77E",
+    "id": "39KFUziXqQ2qqr5k4GA77E",
+    "is_local": false,
+    "is_playable": true,
+    "name": "The Killa",
+    "popularity": 45,
+    "preview_url": "https://p.scdn.co/mp3-preview/eb147cfc9f0ef1c61edf4d5645c66eb4c6f6348d?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:39KFUziXqQ2qqr5k4GA77E"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/6ofVW04Q32gN1Hxk50S9Fi" },
+      "href": "https://api.spotify.com/v1/albums/6ofVW04Q32gN1Hxk50S9Fi",
+      "id": "6ofVW04Q32gN1Hxk50S9Fi",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273a42bfa2c336bdc2e5c486e49", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02a42bfa2c336bdc2e5c486e49", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851a42bfa2c336bdc2e5c486e49", "width": 64 }
+      ],
+      "name": "[REC.]",
+      "release_date": "2022-01-18",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:6ofVW04Q32gN1Hxk50S9Fi"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 79533,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA252200026" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/6tJrWBtFswkwyzcAnZkPzx" },
+    "href": "https://api.spotify.com/v1/tracks/6tJrWBtFswkwyzcAnZkPzx",
+    "id": "6tJrWBtFswkwyzcAnZkPzx",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Bad Blood (Intro)",
+    "popularity": 43,
+    "preview_url": "https://p.scdn.co/mp3-preview/4e72f2210f291110033db44d898f4fa00ecc2397?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:6tJrWBtFswkwyzcAnZkPzx"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/6ofVW04Q32gN1Hxk50S9Fi" },
+      "href": "https://api.spotify.com/v1/albums/6ofVW04Q32gN1Hxk50S9Fi",
+      "id": "6ofVW04Q32gN1Hxk50S9Fi",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273a42bfa2c336bdc2e5c486e49", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02a42bfa2c336bdc2e5c486e49", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851a42bfa2c336bdc2e5c486e49", "width": 64 }
+      ],
+      "name": "[REC.]",
+      "release_date": "2022-01-18",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:6ofVW04Q32gN1Hxk50S9Fi"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 208920,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA252200030" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/4mNoqtRJ0ohQdacy4j9Fmr" },
+    "href": "https://api.spotify.com/v1/tracks/4mNoqtRJ0ohQdacy4j9Fmr",
+    "id": "4mNoqtRJ0ohQdacy4j9Fmr",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Blue Nostalgia",
+    "popularity": 41,
+    "preview_url": "https://p.scdn.co/mp3-preview/58428ea84c1a0aea3dd4d1d7a39e1d7f36f4f089?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:4mNoqtRJ0ohQdacy4j9Fmr"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/40fAbWLsPvL0nUuiDCwxHu" },
+      "href": "https://api.spotify.com/v1/albums/40fAbWLsPvL0nUuiDCwxHu",
+      "id": "40fAbWLsPvL0nUuiDCwxHu",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273f8155fafa8e6f4d332f2e907", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02f8155fafa8e6f4d332f2e907", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851f8155fafa8e6f4d332f2e907", "width": 64 }
+      ],
+      "name": "Love Rain",
+      "release_date": "2018-06-29",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:40fAbWLsPvL0nUuiDCwxHu"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 209565,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA381800144" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/4T5fM8eGg5Pj6PLtIGLeU5" },
+    "href": "https://api.spotify.com/v1/tracks/4T5fM8eGg5Pj6PLtIGLeU5",
+    "id": "4T5fM8eGg5Pj6PLtIGLeU5",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Love Rain",
+    "popularity": 41,
+    "preview_url": "https://p.scdn.co/mp3-preview/7179dbf07db6ea41d3ea2a7b8a02b6c6c48c1324?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:4T5fM8eGg5Pj6PLtIGLeU5"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/6ofVW04Q32gN1Hxk50S9Fi" },
+      "href": "https://api.spotify.com/v1/albums/6ofVW04Q32gN1Hxk50S9Fi",
+      "id": "6ofVW04Q32gN1Hxk50S9Fi",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273a42bfa2c336bdc2e5c486e49", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02a42bfa2c336bdc2e5c486e49", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851a42bfa2c336bdc2e5c486e49", "width": 64 }
+      ],
+      "name": "[REC.]",
+      "release_date": "2022-01-18",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:6ofVW04Q32gN1Hxk50S9Fi"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      },
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/0dX6tgZKWpamoFHFuXFhwd" },
+        "href": "https://api.spotify.com/v1/artists/0dX6tgZKWpamoFHFuXFhwd",
+        "id": "0dX6tgZKWpamoFHFuXFhwd",
+        "name": "Mad Clown",
+        "type": "artist",
+        "uri": "spotify:artist:0dX6tgZKWpamoFHFuXFhwd"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 218746,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA252200028" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/6YZlkNLKQmWWuASregf2S4" },
+    "href": "https://api.spotify.com/v1/tracks/6YZlkNLKQmWWuASregf2S4",
+    "id": "6YZlkNLKQmWWuASregf2S4",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Cold Winter (feat. Mad Clown)",
+    "popularity": 41,
+    "preview_url": "https://p.scdn.co/mp3-preview/3e2f43b54c0583e8a26c1f39c66b633b501c8dce?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:6YZlkNLKQmWWuASregf2S4"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/2pSdkhxmwUL9Cd52ndodqf" },
+      "href": "https://api.spotify.com/v1/albums/2pSdkhxmwUL9Cd52ndodqf",
+      "id": "2pSdkhxmwUL9Cd52ndodqf",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b273afadb83e876695cd7427635c", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e02afadb83e876695cd7427635c", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d00004851afadb83e876695cd7427635c", "width": 64 }
+      ],
+      "name": "Falling (Run On OST Part.10)",
+      "release_date": "2021-01-20",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:2pSdkhxmwUL9Cd52ndodqf"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 225946,
+    "explicit": false,
+    "external_ids": { "isrc": "KRA382100285" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/7L195h00MxU2XiPcjtAWHU" },
+    "href": "https://api.spotify.com/v1/tracks/7L195h00MxU2XiPcjtAWHU",
+    "id": "7L195h00MxU2XiPcjtAWHU",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Falling",
+    "popularity": 36,
+    "preview_url": "https://p.scdn.co/mp3-preview/37da867e34b511f45ef53d0de311243104896137?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:7L195h00MxU2XiPcjtAWHU"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+          "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+          "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+          "name": "YUJU",
+          "type": "artist",
+          "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+        }
+      ],
+      "external_urls": { "spotify": "https://open.spotify.com/album/1LYG9m4bblpo7ytzkR94KC" },
+      "href": "https://api.spotify.com/v1/albums/1LYG9m4bblpo7ytzkR94KC",
+      "id": "1LYG9m4bblpo7ytzkR94KC",
+      "images": [
+        { "height": 640, "url": "https://i.scdn.co/image/ab67616d0000b27333ba0f4b619416f3f2b7c09f", "width": 640 },
+        { "height": 300, "url": "https://i.scdn.co/image/ab67616d00001e0233ba0f4b619416f3f2b7c09f", "width": 300 },
+        { "height": 64, "url": "https://i.scdn.co/image/ab67616d0000485133ba0f4b619416f3f2b7c09f", "width": 64 }
+      ],
+      "name": "Alice (Original Television Soundtrack) Pt. 1",
+      "release_date": "2020-08-28",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:1LYG9m4bblpo7ytzkR94KC"
+    },
+    "artists": [
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/7Bu0r4MCDX3sbhcFD5IXyx" },
+        "href": "https://api.spotify.com/v1/artists/7Bu0r4MCDX3sbhcFD5IXyx",
+        "id": "7Bu0r4MCDX3sbhcFD5IXyx",
+        "name": "YUJU",
+        "type": "artist",
+        "uri": "spotify:artist:7Bu0r4MCDX3sbhcFD5IXyx"
+      },
+      {
+        "external_urls": { "spotify": "https://open.spotify.com/artist/1LIS82VKB1Kxwa5Ha0elP7" },
+        "href": "https://api.spotify.com/v1/artists/1LIS82VKB1Kxwa5Ha0elP7",
+        "id": "1LIS82VKB1Kxwa5Ha0elP7",
+        "name": "ISHXRK",
+        "type": "artist",
+        "uri": "spotify:artist:1LIS82VKB1Kxwa5Ha0elP7"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 232926,
+    "explicit": false,
+    "external_ids": { "isrc": "KRMIM2023697" },
+    "external_urls": { "spotify": "https://open.spotify.com/track/0jGw6YGUvmP7GXeMNrWmRr" },
+    "href": "https://api.spotify.com/v1/tracks/0jGw6YGUvmP7GXeMNrWmRr",
+    "id": "0jGw6YGUvmP7GXeMNrWmRr",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Secret",
+    "popularity": 34,
+    "preview_url": "https://p.scdn.co/mp3-preview/deae1b9d1196df9b2d09f22f241059671efe1532?cid=4548698fb3764c16bb246e23b965f4a1",
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:0jGw6YGUvmP7GXeMNrWmRr"
+  }
+]
