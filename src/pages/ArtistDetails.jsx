@@ -17,7 +17,6 @@ export const ArtistDetails = () => {
 
   const artistName = artist.name;
   const topTracks = require(`../constants/fav_artist/popular_tracks/${artistName}.json`);
-  console.log(topTracks);
 
   return (
     <React.Fragment>

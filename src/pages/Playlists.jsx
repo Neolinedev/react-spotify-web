@@ -12,7 +12,6 @@ import { TabTitle } from "../utils/GlobalFunctions";
 export const Playlists = () => {
   const data = Playlist;
   TabTitle("React Spotify Web | My Playlists");
-  console.log(data);
 
   return (
     <React.Fragment>

@@ -39,13 +39,10 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@testing-library/react": "^13.3.0",
     "nth-check": "^2.1.1",
     "react-scripts": "^5.0.1",
-=======
     "@testing-library/react": "^13.4.0",
->>>>>>> 9c773f8bb6f13f8fa9bf032aa81b0e171685b6b4
     "react-test-renderer": "^18.2.0"
   }
 }

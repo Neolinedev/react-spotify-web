@@ -30,7 +30,6 @@ export const PlaylistDetails = () => {
 
   const playlistName = playlist.name;
   const playlistTracks = require(`../constants/playlists/playlist_tracks/${playlistName}.json`);
-  console.log(playlistTracks.tracks);
 
   return (
     <React.Fragment>
