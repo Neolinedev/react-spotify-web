@@ -2,11 +2,7 @@ import { useLocation } from "react-router-dom";
 import { TabTitle } from "../utils/GlobalFunctions";
 import Data from "../constants/fav_artist/artist.json";
 import React from "react";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
-import Avatar from "@mui/material/Avatar";
-import Stack from "@mui/material/Stack";
-import Link from "@mui/material/Link";
+import { Stack, Avatar, Grid, Link, Typography } from "@mui/material";
 
 export const ArtistDetails = () => {
   const { pathname } = useLocation();

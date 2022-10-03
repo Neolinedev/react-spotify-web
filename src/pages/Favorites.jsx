@@ -1,13 +1,6 @@
 import React from "react";
 import Data from "../constants/fav_artist/artist.json";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
-import Chip from "@mui/material/Chip";
-import Link from "@mui/material/Link";
+import { Card, CardActions, CardContent, CardMedia, Chip, Grid, Link, Typography } from "@mui/material";
 import { Link as RouteLink } from "react-router-dom";
 import { TabTitle } from "../utils/GlobalFunctions";
 

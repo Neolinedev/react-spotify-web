@@ -1,12 +1,7 @@
 import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import Playlist from "../constants/playlists/playlist.json";
-import Card from "@mui/material/Card";
-import Grid from "@mui/material/Grid";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import { CardActionArea, CardContent, CardMedia, Grid, Typography, Card } from "@mui/material";
 import { TabTitle } from "../utils/GlobalFunctions";
 
 export const Playlists = () => {

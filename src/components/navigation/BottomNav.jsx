@@ -1,17 +1,14 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import BottomNavigation from "@mui/material/BottomNavigation";
-import BottomNavigationAction from "@mui/material/BottomNavigationAction";
+import { AppBar, Box, BottomNavigation, BottomNavigationAction } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
-import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export default function LabelBottomNavigation() {
   const pathname = window.location.pathname;
-  const [value, setValue] = React.useState(pathname);
+  const [value, setValue] = useState(pathname);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

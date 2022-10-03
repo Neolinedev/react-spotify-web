@@ -2,16 +2,7 @@ import React from "react";
 import Playlists from "../constants/playlists/playlist.json";
 import { TabTitle } from "../utils/GlobalFunctions";
 import { useLocation } from "react-router-dom";
-import Grid from "@mui/material/Grid";
-import Avatar from "@mui/material/Avatar";
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
+import { Grid, Avatar, Link, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 
 export const PlaylistDetails = () => {
@@ -66,7 +57,7 @@ export const PlaylistDetails = () => {
             justifyContent: { xs: "center", sm: "center", lg: "flex-start" },
           }}
         >
-          <Avatar alt={playlist.name} src={playlist.images[0].url} sx={{ width: 250, height: 250, boxShadow: "0 8px 18px 10px rgba(0,0,0,0.4)" }} variant="square" />
+          <Avatar alt={playlist.name} src={playlist.images[0].url} sx={{ width: 250, height: 250, boxShadow: "0 2px 18px 1px rgba(0,0,0,0.4)" }} variant="square" />
         </Grid>
         <Grid item xs={12} sm={12} md={8} sx={{ display: "flex", flexWrap: "wrap", flexFlow: "column", justifyContent: "flex-end", marginLeft: 0, marginTop: { xs: 4 } }}>
           <Typography variant="h2" component="div" sx={{ fontSize: { xs: 13, lg: 12 }, textTransform: "uppercase" }}>

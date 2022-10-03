@@ -1,7 +1,6 @@
 import React from "react";
 import BottomNav from "../components/navigation/BottomNav";
-import CssBaseline from "@mui/material/CssBaseline";
-import Container from "@mui/material/Container";
+import { Container, CssBaseline } from "@mui/material";
 
 export const Layout = ({ children }) => {
   return (

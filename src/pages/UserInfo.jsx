@@ -1,7 +1,5 @@
 import React from "react";
-import Avatar from "@mui/material/Avatar";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
+import { Avatar, Container, Typography } from "@mui/material";
 import { TabTitle } from "../utils/GlobalFunctions";
 
 // Fetch the user's profile data from the constants/user/user.json file

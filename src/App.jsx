@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Grid } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./layout/Layout";
 import { Favorites } from "./pages/Favorites";
@@ -8,7 +7,7 @@ import { Playlists } from "./pages/Playlists";
 import { ArtistDetails } from "./pages/ArtistDetails";
 import { PlaylistDetails } from "./pages/PlaylistDetails";
 import { TabTitle } from "./utils/GlobalFunctions";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import { SearchBar } from "./components/SearchBar";
