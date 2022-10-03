@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FormGroup } from "@mui/material";
+import { Grid } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./layout/Layout";
 import { Favorites } from "./pages/Favorites";
@@ -11,11 +11,12 @@ import { TabTitle } from "./utils/GlobalFunctions";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
+import { SearchBar } from "./components/SearchBar";
 
 export const App = () => {
   TabTitle("React Spotify Web | My Profile");
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const Theme = createTheme({
     typography: {
@@ -27,31 +28,31 @@ export const App = () => {
   });
 
   useEffect(() => {
-    const modeType = localStorage.getItem("dark") || "dark";
-    if (modeType !== "dark") {
-      setDarkMode(false);
+    if (localStorage.getItem("darkMode") === "true") {
+      setDarkMode(true);
     }
   }, []);
 
   const changeMode = () => {
-    localStorage.setItem("theme", darkMode ? "light" : "dark");
     setDarkMode(!darkMode);
+    localStorage.setItem("darkMode", !darkMode);
   };
 
   return (
     <ThemeProvider theme={Theme}>
       <Layout>
-        <FormGroup sx={{ mt: 2 }}>
+        <Grid container mt={3} sx={{ display: "flex", justifyContent: { lg: "space-between", sm: "space-between", xs: "center" } }}>
           {!darkMode ? (
             <span onClick={changeMode}>
-              <ModeNightIcon sx={{ fontSize: 30 }} />
+              <ModeNightIcon sx={{ fontSize: 50, px: 1 }} />
             </span>
           ) : (
             <span onClick={changeMode}>
-              <LightModeIcon sx={{ fontSize: 30 }} />
+              <LightModeIcon sx={{ fontSize: 50, px: 1 }} />
             </span>
           )}
-        </FormGroup>
+          <SearchBar />
+        </Grid>
         <Routes>
           <Route path="/" element={<UserInfo />} />
           <Route path="/favorites" element={<Favorites />} />

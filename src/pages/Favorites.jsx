@@ -18,10 +18,10 @@ export const Favorites = () => {
   return (
     <React.Fragment>
       <h1 style={{ textAlign: "center" }}>My Favorite Artist</h1>
-      <Grid direction="col" container spacing={3}>
+      <Grid container spacing={3}>
         {data.map((artist) => (
-          <Grid item xs={12} sm={6} lg={4}>
-            <Card sx={{ height: "100%" }} key={artist.id}>
+          <Grid item xs={12} sm={6} lg={4} key={artist.id}>
+            <Card sx={{ height: "100%" }}>
               <CardMedia component="img" height="200" image={artist.images[0].url} alt={artist.name} />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">

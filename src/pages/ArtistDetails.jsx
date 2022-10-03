@@ -20,7 +20,7 @@ export const ArtistDetails = () => {
 
   return (
     <React.Fragment>
-      <h1 style={{ textAlign: "center" }}>{artist.name}</h1>
+      <h1 style={{ textAlign: "center" }}>- {artist.name} -</h1>
       <Grid direction="col" container spacing={3}>
         <Grid item xs={12} sm={12} md={4} sx={{ display: "flex", justifyContent: "center" }}>
           <Stack align="center" justify="center">
