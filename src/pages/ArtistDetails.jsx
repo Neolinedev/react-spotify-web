@@ -2,7 +2,11 @@ import { useLocation } from "react-router-dom";
 import { TabTitle } from "../utils/GlobalFunctions";
 import Data from "../constants/fav_artist/artist.json";
 import React from "react";
-import { Stack, Avatar, Grid, Link, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
+import Grid from "@mui/material/Grid";
+import Avatar from "@mui/material/Avatar";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
 
 export const ArtistDetails = () => {
   const { pathname } = useLocation();
@@ -17,7 +21,7 @@ export const ArtistDetails = () => {
   return (
     <React.Fragment>
       <h1 style={{ textAlign: "center" }}>- {artist.name} -</h1>
-      <Grid direction="col" container spacing={3}>
+      <Grid container spacing={3}>
         <Grid item xs={12} sm={12} md={4} sx={{ display: "flex", justifyContent: "center" }}>
           <Stack align="center" justify="center">
             <Avatar alt={artist.name} src={artist.images[0].url} sx={{ height: 240, width: 240, border: 2 }} />

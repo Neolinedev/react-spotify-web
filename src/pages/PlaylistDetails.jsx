@@ -2,7 +2,17 @@ import React from "react";
 import Playlists from "../constants/playlists/playlist.json";
 import { TabTitle } from "../utils/GlobalFunctions";
 import { useLocation } from "react-router-dom";
-import { Grid, Avatar, Link, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
+import Grid from "@mui/material/Grid";
+import Avatar from "@mui/material/Avatar";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 
 export const PlaylistDetails = () => {
@@ -44,7 +54,7 @@ export const PlaylistDetails = () => {
           <ArrowBackIosNewOutlinedIcon />
         </Link>
       </Grid>
-      <Grid direction="col" spacing={2} container sx={{ marginTop: 8 }}>
+      <Grid spacing={2} container sx={{ marginTop: 8 }}>
         <Grid
           item
           xs={12}
