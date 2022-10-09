@@ -1,6 +1,6 @@
 const authEndpoint = "https://accounts.spotify.com/authorize";
 const redirectURI = "http://localhost:3000/user";
-const clientId = "4548698fb3764c16bb246e23b965f4a1";
+const clientId = "INSERT YOUR CLIENT ID";
 const scopes = [
   "ugc-image-upload",
   "user-read-playback-state",
