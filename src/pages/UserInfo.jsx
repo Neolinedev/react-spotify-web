@@ -9,7 +9,7 @@ export const UserInfo = () => {
   // eslint-disable-next-line no-unused-vars
   const [spotifyToken, setSpotifyToken] = useState("");
 
-  TabTitle("React Spotify Web | My Profile");
+  TabTitle("DamkunzReactSpotify | My Profile");
 
   useEffect(() => {
     const _spotifyToken = localStorage.getItem("spotifyToken");

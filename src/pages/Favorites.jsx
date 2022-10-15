@@ -1,5 +1,5 @@
-import React from "react";
-import Data from "../constants/fav_artist/artist.json";
+import React, { useState, useEffect } from "react";
+import SpotifyWebApi from "spotify-web-api-js";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -12,38 +12,57 @@ import { Link as RouteLink } from "react-router-dom";
 import { TabTitle } from "../utils/GlobalFunctions";
 
 export const Favorites = () => {
-  const data = Data;
-  TabTitle("React Spotify Web | My Favorites");
+  const spotify = new SpotifyWebApi();
+  const [favorites, setFavorites] = useState(null);
+
+  useEffect(() => {
+    const _spotifyToken = localStorage.getItem("spotifyToken");
+    if (_spotifyToken) {
+      spotify.setAccessToken(_spotifyToken);
+    }
+    spotify.getMyTopArtists().then((response) => {
+      setFavorites(response.items);
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  TabTitle("DamkunzReactSpotify | My Favorites");
 
   return (
     <React.Fragment>
       <h1 style={{ textAlign: "center" }}>My Favorite Artist</h1>
       <Grid container spacing={3}>
-        {data.map((artist) => (
-          <Grid item xs={12} sm={6} lg={4} key={artist.id}>
-            <Card sx={{ height: "100%" }}>
-              <CardMedia component="img" height="200" image={artist.images[0].url} alt={artist.name} />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {artist.name}
-                </Typography>
-                <Typography component="span" variant="body2" color="text.secondary" sx={{ display: "block" }}>
-                  {artist.genres.map((genre, i) => (
-                    <Chip color="success" label={genre} key={i} sx={{ m: 0.5, textTransform: "uppercase" }} />
-                  ))}
-                </Typography>
-              </CardContent>
-              <CardActions style={{ bottom: 0, top: "auto" }}>
-                <Link variant="button" sx={{ ml: 1 }} underline="none" target="_blank" href={artist.external_urls.spotify}>
-                  Visit Spotify
-                </Link>
-                <Link variant="button" sx={{ ml: 1 }} underline="none" component={RouteLink} to={`/favorites/${artist.id}`}>
-                  Details
-                </Link>
-              </CardActions>
-            </Card>
-          </Grid>
-        ))}
+        {favorites ? (
+          favorites.map((favorite) => (
+            <Grid item xs={12} sm={6} lg={4} key={favorite.id}>
+              <Card sx={{ height: 448, position: "relative" }}>
+                <CardMedia component="img" height="200" image={favorite.images[0].url} alt={favorite.name} />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {favorite.name}
+                  </Typography>
+                  <Typography component="span" variant="body2" color="text.secondary" sx={{ display: "block" }}>
+                    {favorite.genres.map((genre, i) => (
+                      <Chip color="success" label={genre} key={i} sx={{ m: 0.5, textTransform: "uppercase" }} />
+                    ))}
+                  </Typography>
+                </CardContent>
+                <CardActions style={{ position: "absolute", bottom: 0, top: "auto" }}>
+                  <Link variant="button" sx={{ ml: 1 }} underline="none" target="_blank" href={favorite.external_urls.spotify}>
+                    Visit Spotify
+                  </Link>
+                  <Link variant="button" sx={{ ml: 1 }} underline="none" component={RouteLink} to={`/favorites/${favorite.id}`}>
+                    Details
+                  </Link>
+                </CardActions>
+              </Card>
+            </Grid>
+          ))
+        ) : (
+          <Typography variant="h5" sx={{ textAlign: "center", marginTop: 6 }}>
+            Go follow some artists on Spotify!
+          </Typography>
+        )}
       </Grid>
     </React.Fragment>
   );

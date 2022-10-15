@@ -1,6 +1,6 @@
-const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectURI = "http://localhost:3000/user";
-const clientId = "4548698fb3764c16bb246e23b965f4a1";
+const authEndpoint = process.env.REACT_APP_AUTH_ENDPOINT;
+const redirectURI = process.env.REACT_APP_REDIRECT_URI;
+const clientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const scopes = [
   "ugc-image-upload",
   "user-read-playback-state",

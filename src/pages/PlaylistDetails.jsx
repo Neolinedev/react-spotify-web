@@ -27,7 +27,7 @@ export const PlaylistDetails = () => {
   };
 
   const playlist = data.find((items) => items.id === id);
-  TabTitle(`React Spotify Web | ${playlist.name}`);
+  TabTitle(`DamkunzReactSpotify | ${playlist.name}`);
 
   const playlistName = playlist.name;
   const playlistTracks = require(`../constants/playlists/playlist_tracks/${playlistName}.json`);
