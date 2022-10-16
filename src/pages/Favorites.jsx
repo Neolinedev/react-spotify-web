@@ -20,6 +20,7 @@ export const Favorites = () => {
     if (_spotifyToken) {
       spotify.setAccessToken(_spotifyToken);
     }
+
     spotify.getMyTopArtists().then((response) => {
       setFavorites(response.items);
     });
@@ -59,7 +60,7 @@ export const Favorites = () => {
             </Grid>
           ))
         ) : (
-          <Typography variant="h5" sx={{ textAlign: "center", marginTop: 6 }}>
+          <Typography variant="h5" sx={{ textAlign: "center", mt: 6, ml: 3 }}>
             Go follow some artists on Spotify!
           </Typography>
         )}

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import SpotifyWebApi from "spotify-web-api-js";
 import { Link as RouterLink } from "react-router-dom";
 import CardActionArea from "@mui/material/CardActionArea";
-import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
@@ -53,8 +52,8 @@ export const Playlists = () => {
             </Grid>
           ))
         ) : (
-          <Typography variant="h5" sx={{ textAlign: "center", marginTop: 6 }}>
-            Loading...
+          <Typography variant="h5" sx={{ textAlign: "center", mt: 6, ml: 3 }}>
+            Go make some playlists!
           </Typography>
         )}
       </Grid>

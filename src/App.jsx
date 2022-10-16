@@ -10,7 +10,6 @@ import { PlaylistDetails } from "./pages/PlaylistDetails";
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import { SearchBar } from "./components/SearchBar";
 import { Logout } from "./pages/auth/Logout";
 
 export const App = () => {
@@ -55,7 +54,6 @@ export const App = () => {
               <LightModeIcon sx={{ fontSize: 50, px: 1 }} />
             </span>
           )}
-          <SearchBar />
           {spotifyToken ? <Logout /> : null}
         </Grid>
         <Routes>
