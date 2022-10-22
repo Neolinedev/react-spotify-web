@@ -40,9 +40,11 @@ export const Playlists = () => {
                   to={`/playlist/${playlist.id}`}
                   sx={{
                     position: "relative",
+                    filter: "grayscale(100%)",
                     "&:hover": {
                       transform: "scale(1.05)",
                       transition: "all 0.3s ease-in-out",
+                      filter: "grayscale(0%)",
                     },
                   }}
                 >
