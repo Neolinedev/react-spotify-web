@@ -4,6 +4,7 @@ import { AppBar, Box, BottomNavigation, BottomNavigationAction } from "@mui/mate
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
 import PersonIcon from "@mui/icons-material/Person";
+import SearchIcon from "@mui/icons-material/Search";
 
 export default function LabelBottomNavigation() {
   const pathname = window.location.pathname;
@@ -20,6 +21,7 @@ export default function LabelBottomNavigation() {
           <BottomNavigationAction label="User" value="/user" icon={<PersonIcon />} component={Link} to="/user" />
           <BottomNavigationAction label="Favorites" value="/favorites" icon={<FavoriteIcon />} component={Link} to="/favorites" />
           <BottomNavigationAction label="Playlists" value="/playlists" icon={<PlaylistAddCheckIcon />} component={Link} to="/playlists" />
+          <BottomNavigationAction label="Search" value="/search" icon={<SearchIcon />} component={Link} to="/search" />
         </BottomNavigation>
       </AppBar>
     </Box>

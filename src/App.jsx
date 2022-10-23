@@ -7,6 +7,7 @@ import { Login } from "./pages/auth/Login";
 import { Playlists } from "./pages/Playlists";
 import { ArtistDetails } from "./pages/ArtistDetails";
 import { PlaylistDetails } from "./pages/PlaylistDetails";
+import { Search } from "./pages/Search";
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -64,10 +65,10 @@ export const App = () => {
               <Route path="/favorites/:id" element={<ArtistDetails />} />
               <Route path="/playlists" element={<Playlists />} />
               <Route path="/playlist/:id" element={<PlaylistDetails />} />
+              <Route path="/search" element={<Search />} />
             </>
           ) : (
             <Route path="/" element={<Login />}>
-              <Route path="/login" element={<Login />} />
               <Route path="/user" element={<UserInfo />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/favorites/:id" element={<ArtistDetails />} />
