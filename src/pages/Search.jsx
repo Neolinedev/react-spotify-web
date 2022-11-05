@@ -51,7 +51,17 @@ export const Search = () => {
   return (
     <React.Fragment>
       <Grid container mt={3} sx={{ display: "flex", justifyContent: { lg: "center", md: "center", sm: "center", xs: "center" } }}>
-        <Paper component="form" sx={{ p: "4px 8px", display: "flex", alignItems: "center", width: 400, borderRadius: 50 }}>
+        <Paper
+          component="form"
+          sx={{
+            p: "4px 8px",
+            display: "flex",
+            alignItems: "center",
+            width: 650,
+            borderRadius: 2,
+            boxShadow: "rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;",
+          }}
+        >
           <InputBase sx={{ ml: 1, flex: 1 }} placeholder="Search anything" inputProps={{ "aria-label": "Search anything" }} onChange={handleChange} value={search} />
           <IconButton type="button" sx={{ p: "10px" }} aria-label="search">
             <SearchIcon />
