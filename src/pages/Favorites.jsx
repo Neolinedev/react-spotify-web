@@ -36,10 +36,16 @@ export const Favorites = () => {
         {favorites ? (
           favorites.map((favorite) => (
             <Grid item xs={12} sm={6} lg={4} key={favorite.id}>
-              <Card sx={{ height: 448, position: "relative" }}>
+              <Card
+                sx={{
+                  height: 448,
+                  position: "relative",
+                  boxShadow: "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, aqua 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;",
+                }}
+              >
                 <CardMedia component="img" height="200" image={favorite.images[0].url} alt={favorite.name} />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 600 }}>
                     {favorite.name}
                   </Typography>
                   <Typography component="span" variant="body2" color="text.secondary" sx={{ display: "block" }}>
