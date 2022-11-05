@@ -48,33 +48,27 @@ export const App = () => {
         <Grid container mt={3} sx={{ display: "flex", justifyContent: { lg: "space-between", md: "space-between", sm: "space-between", xs: "center" } }}>
           {!darkMode ? (
             <span onClick={changeMode}>
-              <ModeNightIcon sx={{ fontSize: 50, px: 1 }} />
+              <ModeNightIcon sx={{ fontSize: 50, px: 1, cursor: "pointer" }} />
             </span>
           ) : (
             <span onClick={changeMode}>
-              <LightModeIcon sx={{ fontSize: 50, px: 1 }} />
+              <LightModeIcon sx={{ fontSize: 50, px: 1, cursor: "pointer" }} />
             </span>
           )}
-          {spotifyToken ? <Logout /> : null}
+          {spotifyToken && <Logout />}
         </Grid>
         <Routes>
           {spotifyToken ? (
-            <>
+            <React.Fragment>
               <Route path="/user" element={<UserInfo />} />
               <Route path="/favorites" element={<Favorites />} />
               <Route path="/favorites/:id" element={<ArtistDetails />} />
               <Route path="/playlists" element={<Playlists />} />
               <Route path="/playlist/:id" element={<PlaylistDetails />} />
               <Route path="/search" element={<Search />} />
-            </>
+            </React.Fragment>
           ) : (
-            <Route path="/" element={<Login />}>
-              <Route path="/user" element={<UserInfo />} />
-              <Route path="/favorites" element={<Favorites />} />
-              <Route path="/favorites/:id" element={<ArtistDetails />} />
-              <Route path="/playlists" element={<Playlists />} />
-              <Route path="/playlist/:id" element={<PlaylistDetails />} />
-            </Route>
+            <Route path="*" element={<Login />} />
           )}
         </Routes>
       </Layout>
