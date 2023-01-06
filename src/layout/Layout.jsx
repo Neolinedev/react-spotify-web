@@ -4,8 +4,7 @@ import { Container, CssBaseline } from "@mui/material";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import SpotifyWebApi from "spotify-web-api-js";
-import { loginURL } from "../services/spotifyLogin";
-import { getTokenFromURL } from "../services/spotifyLogin";
+import { loginURL, getTokenFromURL } from "../services/spotifyLogin";
 
 export const Layout = ({ children }) => {
   const spotify = new SpotifyWebApi();
@@ -37,7 +36,6 @@ export const Layout = ({ children }) => {
       <CssBaseline />
       <Container>
         <main>{children}</main>
-        {spotifyToken && localStorage.getItem("spotifyToken") ? <BottomNav /> : null}
         {!spotifyToken && !localStorage.getItem("spotifyToken") ? (
           <Grid container sx={{ marginTop: 5, display: "flex", justifyContent: "center", alignItems: "center" }}>
             <Link

@@ -4,6 +4,7 @@ import { SearchResults } from "../components/SearchResults";
 import { TabTitle } from "../utils/GlobalFunctions";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
@@ -34,7 +35,7 @@ export const Search = () => {
               artist: track.artists[0].name,
               title: track.name,
               uri: track.uri,
-              albumUrl: track.album.images[0].url,
+              images: track.album.images[0].url,
             };
           })
         );
@@ -69,6 +70,11 @@ export const Search = () => {
         </Paper>
       </Grid>
       <Grid container mt={4}>
+        <Grid item xs={12} lg={12} md={12} sm={12}>
+          <Typography variant="h5" component="div" sx={{ textAlign: "center" }}>
+            Search result for : {search}
+          </Typography>
+        </Grid>
         {searchResults.map((track) => (
           <Grid item xs={12} lg={12} md={12} sm={12} sx={{ my: 1 }} key={track.uri}>
             <SearchResults track={track} />

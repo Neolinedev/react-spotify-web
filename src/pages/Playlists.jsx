@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
 import SpotifyWebApi from "spotify-web-api-js";
-import { Link as RouterLink } from "react-router-dom";
-import CardActionArea from "@mui/material/CardActionArea";
-import CardMedia from "@mui/material/CardMedia";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Card from "@mui/material/Card";
+import { PlaylistsCard } from "../components/cards/PlaylistsCard";
 import { TabTitle } from "../utils/GlobalFunctions";
 
 export const Playlists = () => {
@@ -34,27 +31,12 @@ export const Playlists = () => {
         {playlists ? (
           playlists.map((playlist, i) => (
             <Grid item xs={12} sm={6} md={3} sx={{ display: "flex", justifyContent: "center" }} key={i}>
-              <Card sx={{ maxWidth: { lg: 300, sm: 500, xs: 420 }, borderRadius: 3, height: "100%" }}>
-                <CardActionArea
-                  component={RouterLink}
-                  to={`/playlist/${playlist.id}`}
-                  sx={{
-                    position: "relative",
-                    boxShadow: "0 2px 18px 1px aqua",
-                    "&:hover": {
-                      transform: "scale(1.05)",
-                      transition: "all 0.3s ease-in-out",
-                    },
-                  }}
-                >
-                  <CardMedia component="img" height="100" image={playlist.images[0].url} sx={{ height: "fit-content", boxShadow: "0 5px 10px 2px rgba(0,0,0,0.5)" }} />
-                </CardActionArea>
-              </Card>
+              <PlaylistsCard playlist={playlist} />
             </Grid>
           ))
         ) : (
           <Typography variant="h5" sx={{ textAlign: "center", mt: 6, ml: 3 }}>
-            Go make some playlists!
+            Go create some playlists!
           </Typography>
         )}
       </Grid>

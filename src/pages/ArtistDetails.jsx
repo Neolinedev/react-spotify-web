@@ -42,8 +42,8 @@ export const ArtistDetails = () => {
         <Grid container spacing={3} sx={{ marginTop: 5 }}>
           <Grid item xs={12} sm={12} md={4} sx={{ display: "flex", justifyContent: "center", mb: 4 }}>
             <Stack align="center" justify="center">
-              <Avatar alt={artist.name} src={artist.images[0].url} sx={{ height: 240, width: 240, border: 2 }} />
-              <Typography variant="h5" component="div" sx={{ mt: 1, color: "aqua", fontWeight: 600 }}>
+              <Avatar alt={artist.name} src={artist.images[0].url} sx={{ height: 240, width: 240 }} />
+              <Typography variant="h5" component="div" sx={{ mt: 1, fontWeight: 600 }}>
                 {artist.name}
               </Typography>
               <Typography variant="body2" component="div" sx={{ mt: 1 }}>
