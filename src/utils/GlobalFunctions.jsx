@@ -1,3 +1,9 @@
 export const TabTitle = (newTitle) => {
   return (document.title = newTitle);
 };
+
+export const millisToMinutesAndSeconds = (millis) => {
+  let minutes = Math.floor(millis / 60000);
+  let seconds = ((millis % 60000) / 1000).toFixed(0);
+  return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+};
